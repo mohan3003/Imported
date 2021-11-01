@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.343107">
+<testcase classname="To validate women session category" name="To validate the women session category by clicking various options" time="41.343107">
+<failure message="java.lang.AssertionError: Verifythepage expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:44)&#13;&#10;&#9;at org.stepDefinition.LACategorySteps.the_user_should_view_the_correct_product(LACategorySteps.java:39)&#13;&#10;&#9;at ✽.The user should view the correct product(file:src/test/resources/Category.feature:7)&#13;&#10;"><![CDATA[Given The user should be in the home page...................................passed
+When The user should click the women category...............................passed
+And the user should choose any one product..................................passed
+Then The user should view the correct product...............................failed
+
+StackTrace:
+java.lang.AssertionError: Verifythepage expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.stepDefinition.LACategorySteps.the_user_should_view_the_correct_product(LACategorySteps.java:39)
+	at ✽.The user should view the correct product(file:src/test/resources/Category.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
