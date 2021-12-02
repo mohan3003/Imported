@@ -22,14 +22,18 @@ public class HooksClass extends BaseClass1{
 	public void startTime() {
 		System.out.println("Order 2 executed");
 		printStartTime();
+		System.out.println("done");
 		
-
 	}
 	
 	@Before(order=3)
 	public void beforeScenario() {
 	System.out.println("order 3 executed");
 	launchBrowser();
+	System.out.println("done");
+	System.out.println("new code added");
+
+	
 	loadurl("http://www.lookagain.co.uk/");
 	maxWindow();
 	}
