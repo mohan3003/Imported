@@ -22,8 +22,8 @@ public class HooksClass extends BaseClass1{
 	public void startTime() {
 		System.out.println("Order 2 executed");
 		printStartTime();
+		System.out.println("done");
 		
-
 	}
 	
 	@Before(order=3)
