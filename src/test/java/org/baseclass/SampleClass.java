@@ -15,6 +15,10 @@ public class SampleClass  {
 		driver.get("https://www.facebook.com/");
 		
 	}
+	private void newone() {
+		System.out.println("Changed");
+
+	}
 	
 
 }
